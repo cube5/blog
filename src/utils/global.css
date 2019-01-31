@@ -1,0 +1,25 @@
+body {
+  --violet: darkorchid;
+  background-color: var(--bg);
+  transition: background 0.2s ease-out;
+}
+
+body.light {
+  --violet: darkorchid;
+  --bg: #ffffff;
+  --header: var(--violet);
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: var(--violet);
+  --hr: hsla(0, 0%, 0%, 0.2);
+}
+
+body.dark {
+  --violet: violet;
+  --bg: #282c35;
+  --header: #fff;
+  --textNormal: whitesmoke;
+  --textTitle: #fff;
+  --textLink: var(--violet);
+  --hr: hsla(0, 0%, 100%, 0.2);
+}
